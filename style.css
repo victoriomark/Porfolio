@@ -86,7 +86,8 @@ body{
 .hero .profile .img img{
     border-radius: 50%;
     width:  10rem;
-    border: solid 3px #5d4954;
+    height: 11rem;
+    border: solid #5d4954 ;
 }
 .img{
     display: flex;
@@ -94,6 +95,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 10px;
+    
   
 }
 .profile{
@@ -284,3 +286,6 @@ body{
     z-index: 1;
 }
 
+img{
+  object-fit: cover;
+}
